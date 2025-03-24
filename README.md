@@ -1,3 +1,4 @@
+Soal :
 1. Jelaskan Struktur antar Hubungan dan beri contohnya .
 2. Bila Terlalu banyak modul atau perangkat dihubungkan pada bus maka akan terjadi penurunan kinerja, Sebutkan Penyebabnya ?
 3. Umumnya perangkat berprioritas paling rendah memiliki waktu tunggu rata-rata yang paling singkat. Dengan dasar ini biasanya CPU diberi perioritas tertinggi pada SBI. Sebutkan alasan perangkat berprioritas 16 
@@ -19,22 +20,22 @@ PCI merupakan bus yang tidak bergantung pada prosesor dan berfungsi sebagai bus 
 BUS ISA (Industry Standard Architecture)
 Bus ISA dikembangkan sebagai standar yang kompatibel dengan perangkat sebelumnya. Pada dasarnya, bus ini merupakan pengembangan dari bus PC/AT yang bekerja pada kecepatan 8,33 MHz. Salah satu kelebihan dari bus ISA adalah kompatibilitasnya dengan perangkat keras lama, memungkinkan penggunaan kartu ekspansi dan mesin yang lebih tua tanpa mengalami kendala.
 
-2. Habisnya kapasitas transfer bus
+2. Habisnya kapasitas transfer bus.
 Setiap bus memiliki lebar jalur data yang berbeda-beda. Jika jumlah data yang ditransfer melebihi kapasitas maksimum bus, maka akan terjadi penurunan kecepatan transfer, menyebabkan keterlambatan dalam pengiriman data.
 
-Antrian penggunaan bus semakin panjang
+Antrian penggunaan bus semakin panjang.
 Semakin banyak perangkat yang menggunakan bus secara bersamaan, semakin panjang antrian data yang harus diproses. Hal ini dapat memperlambat proses transfer data karena setiap perangkat harus menunggu giliran untuk menggunakan bus.
 
-Semakin besar delay propagasi dalam koordinasi penggunaan bus
+Semakin besar delay propagasi dalam koordinasi penggunaan bus.
 Delay propagasi terjadi ketika sistem harus mengatur penggunaan bus di antara berbagai perangkat. Semakin banyak perangkat yang terhubung, semakin lama waktu yang dibutuhkan untuk mengkoordinasikan akses ke bus, sehingga memperlambat komunikasi data.
 
-Terjadinya konflik akses bus
+Terjadinya konflik akses bus.
 Jika beberapa perangkat mencoba mengakses bus secara bersamaan tanpa mekanisme pengaturan yang efektif, maka dapat terjadi konflik yang mengakibatkan penurunan performa atau bahkan kegagalan transfer data.
 
-Kinerja bus bergantung pada frekuensi clock
+Kinerja bus bergantung pada frekuensi clock.
 Kecepatan transfer data pada bus dipengaruhi oleh frekuensi clock yang digunakan. Jika frekuensi clock rendah, maka kecepatan komunikasi antar komponen juga akan lebih lambat dibandingkan dengan bus yang memiliki frekuensi lebih tinggi.
 
-Jenis arsitektur bus yang digunakan
+Jenis arsitektur bus yang digunakan.
 Arsitektur bus yang lebih lama, seperti ISA, memiliki kecepatan yang jauh lebih rendah dibandingkan dengan standar yang lebih baru seperti PCIe. Pemilihan jenis bus yang sesuai dengan kebutuhan sangat penting untuk mengoptimalkan performa sistem.
 
 3. Bus Data adalah jalur komunikasi yang digunakan untuk mentransfer data antara berbagai komponen dalam sistem komputer. Bus ini terdiri dari 8, 16, 32, atau lebih jalur sinyal paralel yang memungkinkan pengiriman data dengan lebih cepat. Jalur data bersifat dua arah (bidirectional), sehingga CPU dapat membaca maupun mengirim data ke memori atau port.
